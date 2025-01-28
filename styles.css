@@ -15,9 +15,12 @@ body {
     left: 0;
 }
 
-.sidebar__navigation {
+.sidebar__navigation, .sidebar__biblioteca {
     background-color: #121212;
     border-radius: 8px;
+}
+
+.sidebar__navigation {
     cursor: pointer;
 }
 
@@ -49,4 +52,38 @@ body {
 
 .logo img {
     width: 80px;
+}
+
+/* Biblioteca */
+
+.sidebar__biblioteca {
+    padding: 16px;
+    margin-top: 12px;
+}
+
+.subtitulo-biblioteca__container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.subtitulo-biblioteca__container a {
+    color: #b3b3b3;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.subtitulo-biblioteca__container a .fa {
+    font-size: 22px;
+    margin-right: 14px;
+}
+
+.subtitulo-biblioteca__container h3{
+    font-size: 18px;
+    display: inline-block;
+}
+
+.subtitulo-biblioteca__container .fa {
+    color: #b3b3b3;
+    font-size: 14px;
 }
