@@ -15,12 +15,9 @@ body {
     left: 0;
 }
 
-.sidebar__navigation, .sidebar__biblioteca {
+.sidebar__navigation {
     background-color: #121212;
     border-radius: 8px;
-}
-
-.sidebar__navigation {
     cursor: pointer;
 }
 
@@ -56,34 +53,46 @@ body {
 
 /* Biblioteca */
 
-.sidebar__biblioteca {
-    padding: 16px;
-    margin-top: 12px;
-}
-
-.subtitulo-biblioteca__container {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
-
-.subtitulo-biblioteca__container a {
+.library {
+    background-color: #121212;
     color: #b3b3b3;
     font-weight: 600;
-    text-decoration: none;
-}
-
-.subtitulo-biblioteca__container a .fa {
-    font-size: 22px;
-    margin-right: 14px;
-}
-
-.subtitulo-biblioteca__container h3{
-    font-size: 18px;
-    display: inline-block;
-}
-
-.subtitulo-biblioteca__container .fa {
-    color: #b3b3b3;
     font-size: 14px;
+    padding: 4px 8px;
+    border-radius: 8px;
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.library .library__content {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.library .library__button {
+    background-color: transparent;
+    color: #b3b3b3;
+    padding: 20px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    border: 0;
+    margin-right: 10px;
+    text-transform: none;
+    display: flex;
+    cursor: pointer;
+}
+
+.library .library__button .fa {
+    padding-right: 8px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+.library .library__content .fa-plus {
+    margin: 24px 10px;
 }
