@@ -9,9 +9,12 @@
 
 .header__navigation {
     background-color: #121212;
-    padding: 16px;
     border-radius: 8px;
     margin: 10px;
+}
+
+.header__navigation {
+    padding: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -86,4 +89,28 @@
     font-size: 16px;
     font-weight: 700;
     border-radius: 40px;
+}
+
+.playlist-container {
+    background-color: #121212;
+    color: #fff;
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.playlist {
+    margin: 24px;
+}
+
+.playlist #greeting {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.playlist .greeting-subtitle {
+    font-size: 24px;
+    font-weight: 700;
 }
