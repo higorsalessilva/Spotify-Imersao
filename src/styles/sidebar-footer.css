@@ -1,10 +1,5 @@
-:root {
-    --font-dm-sans: "DM Sans", sans-serif;
-}
-
 body {
     background-color: #000;
-    height: 100vh;
     font-family: var(--font-dm-sans);
 }
 
