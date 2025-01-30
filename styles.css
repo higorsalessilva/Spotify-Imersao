@@ -52,8 +52,6 @@ body {
     width: 80px;
 }
 
-/* Biblioteca */
-
 .library {
     background-color: #121212;
     color: #b3b3b3;
@@ -176,35 +174,35 @@ body {
 }
 
 footer {
+    background-image: linear-gradient(to right, #040113 , #0615f3);
+    color: #fff;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     bottom: 0;
     right: 0;
     left: 0;
 }
 
-footer .rodape {
-    background-image: linear-gradient(90deg, #da19d0 0%, #6670f8 100%);
-    color: #fff;
-    padding: 14px 40px 14px 40px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.rodape__container .text {
-    display: block;
-    font-size: 14px;
-}
-
-.rodape__container .title {
+.rodape-text .rodape-text__title {
+    font-size: 12px;
+    font-weight: 400;
     text-transform: uppercase;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
-.rodape .rodape__button {
+.rodape-text .rodape-text__subtitle {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.button__container button {
     font-size: 18px;
     font-weight: 600;
     padding: 12px 24px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
+    flex-shrink: 0;
 }
